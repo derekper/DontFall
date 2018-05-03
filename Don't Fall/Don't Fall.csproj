@@ -221,9 +221,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="ArchimedsLab">
-      <HintPath>Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -250,17 +247,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FloatingEntities\Scripts\BoatController.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityFlat.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityRealist.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityStorm.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\GameEntity.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\OceanAdvanced.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\Orbital.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\PropellerBoats.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\SplashGenerator.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\Tools\Proxies.cs" />
-    <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -300,12 +286,10 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\UI\Title\LoadGame.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\FloatingEntities\Shaders\Ocean.shader" />
-    <None Include="Assets\FloatingEntities\Shaders\OceanAdvanced.shader" />
-    <None Include="Assets\FloatingEntities\Shaders\WaterToolBox.cginc" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
