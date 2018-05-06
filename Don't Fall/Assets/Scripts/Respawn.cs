@@ -8,7 +8,9 @@ public class Respawn : MonoBehaviour {
     [SerializeField] private Transform respawnpoint;
 
     private void OnTriggerEnter(Collider other)
-    {   //resets players position to respawn point
+    {
+        FallCounter.falls += 1;
+        //resets players position to respawn point
         player.transform.position = respawnpoint.transform.position;
     }
 
